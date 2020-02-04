@@ -1,12 +1,12 @@
 # React_movieApp
 
-React의 컨셉
+**React**의 컨셉
 
 - arrow function
 
-> data => data;
+  > data => data;
 
-> (a, b) => {return a + b;}
+  > (a, b) => {return a + b;}
 
 - spread operator
 
