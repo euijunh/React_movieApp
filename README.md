@@ -122,23 +122,26 @@
 ** React **
 ## Container Presenter Pattern
 Container Presenter Pattern에서 컨테이너는 data, state(상태값)을 가지고 api를 불러온다.
+
 그리고 로직을 처리한다. 그 다음에 프리젠터는 그 데이터들을 보여주는 역할
+
 프리젠터는 state(상태값)을 가지고 있지 않고 api가 먼지 모르고 클래스도 없고 그냥 함수형 컴포넌트이다.
-프리젠터는 스타일이고 컨테이너는 데이터이다.
-컨테이너는 state(상태값)을 가진 모든 리액트 컴포넌트가 될 것이다.
 
 ### Container Presenter Pattern - Container
 - componentDidMount()
-Header는 Route가 아니기 때문에 Router에서 location 정보를 받을 수 없다.
+
+- Header는 Route가 아니기 때문에 Router에서 location 정보를 받을 수 없다.
 
 - history.push()
-  이 경우 라우터에 새 URL을 푸시하는 데 사용됩니다.
+
+  라우터에 새 URL을 푸시하는 데 사용됩니다.
 
   Route는 컴포넌트에 기본적으로 match, history, location 이라는 것을 넘겨준다. 
   
   이때 histroy.push(‘/인자’) 함수에 인자를 넣어주면 해당 인자로 url을 새로고침 없이 이동시켜준다.
 
 - Destructuring assignment with let -> ({ latitude, longitude } = props.userLocation.coords);
+
     Destructuring은 let, const또는 var선언 뒤에 있거나 블록 문과 구별하기 위해 식 컨텍스트에 있어야합니다.
 
 ### Container Presenter Pattern - Presenter
