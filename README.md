@@ -119,7 +119,7 @@
   }
 ```
 
-**React**
+**React -> Container Presenter Pattern **
 
 ```javascript
 <Router>
