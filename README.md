@@ -149,4 +149,17 @@ Fragments( <></> )
 // 이 부분을 고치기 위해 Switch를 사용 <Switch>
 // Switch는 한 번에 오직 하나의 Route만 Render하게 해줌
 // Redirect 추가
+
+// styled-components
+// a태그 대신에 React Router에서 주어진 Link
+// 이 링크는 해당 페이지가 내 어플리케이션에 있으면
+// 그 곳으로 브라우저한 방식으로 가지 않고 JS의 방식으로 가게 해준다.
+
+// styled-reset
+// css를 초기화해서 0의 상태에서 시작하게 하는 것
+
+// withRouter
+// 다른 컴포넌트를 감싸는 컴포넌트 
+// Router에 props를 전달, 덕분에 다른 컴포넌트와도 연결할 수 있고 Header가 우리가 어디 있는지 알 수 있다.
+
 ```
