@@ -145,6 +145,22 @@ Container Presenter Pattern에서 컨테이너는 data, state(상태값)을 가�
     Destructuring은 let, const또는 var선언 뒤에 있거나 블록 문과 구별하기 위해 식 컨텍스트에 있어야합니다.
 
 ### Container Presenter Pattern - Presenter
+```javascript
+- propTypes (isRequired = 필수값)
+  내가 전달받은 props가 내가 원하는 props인지 확인해준다
+
+'key'는 목록에 렌더링 된 많은 컴포넌트가있을 때 React에서 필요한 특성이며, 단지 요구 사항이며 표시에 영향을 미치지 않습니다.
+
+시각장애인들에게 필요한 screen reader에서 screen을 읽으려 하면 aria-label 속성을 알려준다.
+
+event.preventDefault()
+
+JSX, {children}, props, state
+
+- react-helmet
+
+body태그가 아닌 head 태그를 수정
+```
 
 ```javascript
 <Router>
