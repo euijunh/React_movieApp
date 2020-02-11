@@ -1,5 +1,5 @@
 # React_movieApp
-[Go to website](https://euijunh.github.io/React_movieApp/)
+[Go to website](https://euijunh.github.io/react-movie-web/)
 
 - arrow function
 ```javascript
