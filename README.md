@@ -1,4 +1,5 @@
-# React_movieApp
+# React Movie Info Website
+
 [Go to website](https://euijunh.github.io/react-movie-web/)
 
 - arrow function
