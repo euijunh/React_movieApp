@@ -137,6 +137,8 @@ Container Presenter Pattern에서 컨테이너는 data, state(상태값)을 가�
        setState/props 바뀔 때 : shouldComponentUpdate(return true일 때) -> render -> componentDidUpdate
 
        부모가 자신을 없애면 : componentWillUnmount - 소멸
+       
+ ![라이프사이클](./life-cycle.PNG) {:.aligncenter}
 
 - Header는 Route가 아니기 때문에 Router에서 location 정보를 받을 수 없다.
 
