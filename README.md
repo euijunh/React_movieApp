@@ -130,7 +130,13 @@ Container Presenter Pattern에서 컨테이너는 data, state(상태값)을 가�
 프리젠터는 state(상태값)을 가지고 있지 않고 api가 먼지 모르고 클래스도 없고 그냥 함수형 컴포넌트이다.
 
 ### Container Presenter Pattern - Container
-- componentDidMount()
+- 라이프사이클 (클래스)
+
+       처음 render시에 : constructor -> render -> ref -> componentDidMount
+
+       setState/props 바뀔 때 : shouldComponentUpdate(return true일 때) -> render -> componentDidUpdate
+
+       부모가 자신을 없애면 : componentWillUnmount - 소멸
 
 - Header는 Route가 아니기 때문에 Router에서 location 정보를 받을 수 없다.
 
